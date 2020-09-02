@@ -151,7 +151,7 @@ if (hour > 12) {
 // adds zero infront of single digit number
 function zeros(num) {
 if (num < 10) {
-    num = '0' + num
+    num =  num
 };
 return num;
 }
